@@ -53,81 +53,63 @@ const recipes = [
   {
     id: "bata-pauna",
     name: "Bata-Pauna",
-    description: "Traditional steamed rice flour dumplings with a spicy filling. These delicate parcels are wrapped in turmeric leaves for an authentic aromatic experience.",
+    description: "A fried snack of spicy mashed potato filled in triangular bread slices.",
     ingredients: [
-      "2 cups rice flour",
-      "2½ cups water",
-      "Salt to taste",
-      "1 tbsp oil",
-      "For filling: 1 cup grated coconut, 2 tbsp jaggery, ½ tsp cardamom powder",
-      "Turmeric leaves or banana leaves",
-      "Cotton thread for tying"
+      "4 boiled potatoes, mashed",
+      "1 tsp ginger-garlic paste",
+      "2 chopped green chilies",
+      "Salt, turmeric, red chili powder",
+      "8 bread slices",
+      "Water paste (flour + water) to seal edges",
+      "Oil for frying"
     ],
     instructions: [
-      "Boil water with salt and oil.",
-      "Gradually add rice flour while stirring continuously to avoid lumps.",
-      "Cook until the mixture leaves the sides of the pan.",
-      "Cover and let it cool completely.",
-      "Mix grated coconut, jaggery, and cardamom powder for filling.",
-      "Knead the rice flour mixture until smooth.",
-      "Take small portions, flatten, add filling, and seal edges.",
-      "Wrap each dumpling in turmeric leaves and tie with thread.",
-      "Steam for 20-25 minutes until cooked through.",
-      "Serve hot with ghee or coconut chutney."
+      "Mix mashed potatoes with spices and green chilies.",
+      "Cut bread diagonally into triangles.",
+      "Stuff a spoonful of potato mix between two triangles, seal edges with water paste.",
+      "Deep fry till golden brown.",
+      "Tip: Serve with green chutney or ketchup."
     ]
   },
   {
     id: "sev-khamani",
     name: "Sev Khamani",
-    description: "Crumbled dhokla topped with crunchy sev, chutneys, and fresh garnishes. A popular Gujarati street food that's tangy, spicy, and absolutely addictive.",
+    description: "A spicy-sour snack made from crumbled dhokla, garnished with sev.",
     ingredients: [
-      "4-5 pieces of dhokla, crumbled",
-      "½ cup fine sev",
-      "2 tbsp green chutney",
-      "2 tbsp tamarind chutney",
-      "1 onion, finely chopped",
-      "2 tbsp fresh coriander, chopped",
-      "1 tbsp pomegranate seeds (optional)",
-      "Chaat masala to taste",
-      "1 green chili, finely chopped"
+      "1 cup crumbled dhokla",
+      "1 tsp ginger-chili paste",
+      "1/2 tsp sugar",
+      "1 tsp lemon juice",
+      "Salt to taste",
+      "1 tsp mustard seeds, curry leaves",
+      "Chopped coriander, sev"
     ],
     instructions: [
-      "Crumble the dhokla pieces into small chunks in a serving bowl.",
-      "Sprinkle chopped onions and green chilies over the dhokla.",
-      "Add dots of green chutney and tamarind chutney.",
-      "Generously sprinkle sev on top.",
-      "Add fresh coriander and pomegranate seeds.",
-      "Sprinkle chaat masala for extra flavor.",
-      "Gently mix everything just before serving.",
-      "Serve immediately to maintain the crunch of sev.",
-      "Enjoy this chatpata street food delight!"
+      "Heat oil, add mustard seeds, curry leaves.",
+      "Add ginger-chili paste, then dhokla crumbs.",
+      "Mix in sugar, lemon juice, salt. Cook for 2–3 mins.",
+      "Garnish with coriander and sev.",
+      "Tip: Use leftover dhokla for best texture."
     ]
   },
   {
     id: "khichu",
     name: "Khichu",
-    description: "Soft, stretchy rice flour dough served hot with oil and spices. A comforting Gujarati dish that's simple yet incredibly satisfying when eaten fresh and warm.",
+    description: "A soft, mildly spiced rice flour snack, steamed and topped with oil.",
     ingredients: [
       "1 cup rice flour",
-      "2½ cups water",
-      "½ tsp cumin seeds",
-      "2-3 green chilies, chopped",
-      "1 inch ginger, chopped",
-      "Salt to taste",
-      "2 tbsp oil",
-      "Fresh coriander for garnish",
-      "Extra oil for serving"
+      "2.5 cups water",
+      "1/2 tsp cumin seeds",
+      "1 tsp green chili paste",
+      "Salt",
+      "1 tsp oil for serving"
     ],
     instructions: [
-      "Boil water with cumin seeds, green chilies, ginger, and salt.",
-      "Reduce heat and gradually add rice flour while stirring continuously.",
-      "Add oil and mix well to prevent sticking.",
-      "Cook for 8-10 minutes, stirring constantly until mixture thickens.",
-      "The khichu should have a stretchy, elastic consistency.",
-      "Remove from heat when it starts leaving the sides of the pan.",
-      "Serve immediately on plates while hot.",
-      "Drizzle with oil and garnish with fresh coriander.",
-      "Eat with hands while warm for the best experience - it's all about the texture!"
+      "Boil water with salt, cumin, chili paste.",
+      "Slowly add rice flour while stirring to avoid lumps.",
+      "Cook till it forms a soft dough.",
+      "Serve warm, drizzled with oil or pickle masala.",
+      "Tip: Eat hot! Hardens on cooling."
     ]
   }
 ];
