@@ -6,58 +6,48 @@ const recipes = [
   {
     id: "upma",
     name: "Upma",
-    description: "A savory breakfast dish made with semolina, vegetables, and aromatic spices. Quick, nutritious, and comforting - perfect for any time of day.",
+    description: "A warm, savory semolina snack that's soft, aromatic, and filling.",
     ingredients: [
-      "1 cup semolina (rava/suji)",
-      "2-3 green chilies, chopped",
-      "1 inch ginger, chopped",
-      "1 onion, chopped",
-      "2 tbsp oil or ghee",
+      "1 cup semolina (rava)",
+      "1 tbsp ghee or oil",
       "1 tsp mustard seeds",
-      "1 tsp cumin seeds",
-      "10-12 curry leaves",
-      "2½ cups water",
-      "Salt to taste",
-      "Fresh coriander for garnish"
+      "1 tsp grated ginger",
+      "1 chopped green chili",
+      "1 sprig curry leaves",
+      "2.5 cups water",
+      "Salt to taste"
     ],
     instructions: [
-      "Dry roast semolina in a pan until light golden and aromatic. Set aside.",
-      "Heat oil in the same pan. Add mustard seeds, cumin seeds, and let them splutter.",
-      "Add curry leaves, green chilies, and ginger. Sauté for 30 seconds.",
-      "Add chopped onions and cook until translucent.",
-      "Boil water in another pan with salt.",
-      "Add the roasted semolina to the tempering while stirring continuously.",
-      "Slowly add the hot water while stirring to avoid lumps.",
-      "Cook for 3-4 minutes until water is absorbed and upma is fluffy.",
-      "Garnish with fresh coriander and serve hot."
+      "Dry roast the semolina in a pan until lightly golden and aromatic. Set aside.",
+      "Heat oil/ghee in a pan. Add mustard seeds, ginger, chili, and curry leaves.",
+      "Add water and salt. Once it boils, slowly stir in the semolina while whisking.",
+      "Cook covered for 2–3 mins on low flame until thick and soft.",
+      "Garnish with coriander and lemon juice.",
+      "Tip: Add chopped vegetables or roasted peanuts for extra flavor."
     ]
   },
   {
     id: "instant-dhokla",
     name: "Instant Dhokla",
-    description: "Fluffy, steamed savory cakes made with gram flour and spices. Light, spongy, and irresistibly delicious - a perfect healthy snack.",
+    description: "A soft, spongy, steamed chickpea flour cake topped with tempering.",
     ingredients: [
-      "1 cup gram flour (besan)",
-      "1 tbsp semolina",
-      "1 tbsp oil",
-      "1 tsp ginger-green chili paste",
-      "½ tsp turmeric powder",
-      "1 tsp sugar",
+      "1 cup besan (gram flour)",
+      "1/2 cup sour curd",
+      "1 tsp ginger-chili paste",
+      "1/2 tsp turmeric",
       "Salt to taste",
-      "¾ cup water",
       "1 tsp Eno fruit salt",
-      "For tempering: 1 tbsp oil, mustard seeds, sesame seeds, green chilies, curry leaves"
+      "1/2 tsp sugar",
+      "1 tsp lemon juice",
+      "For tempering: 1 tsp mustard seeds, 1 chopped green chili, curry leaves, 1 tsp oil"
     ],
     instructions: [
-      "Mix gram flour, semolina, oil, ginger-chili paste, turmeric, sugar, and salt.",
-      "Gradually add water to make a smooth batter. Let it rest for 10 minutes.",
-      "Grease a steaming plate or dhokla pan.",
-      "Add Eno to the batter and mix gently until frothy.",
-      "Immediately pour into the greased plate and steam for 12-15 minutes.",
-      "Check with a toothpick - it should come out clean when done.",
-      "Cool for 5 minutes, then cut into squares.",
-      "For tempering: Heat oil, add mustard seeds, sesame seeds, chilies, and curry leaves.",
-      "Pour the tempering over dhokla and serve with green chutney."
+      "Mix besan, curd, salt, turmeric, ginger-chili paste. Add water to make a thick batter.",
+      "Just before steaming, add Eno and lemon juice, mix gently.",
+      "Pour into greased dish and steam for 15–20 mins.",
+      "Prepare tempering and pour over the steamed dhokla.",
+      "Cut into squares and serve with chutney.",
+      "Tip: Don't overmix after adding Eno to preserve fluffiness."
     ]
   },
   {
