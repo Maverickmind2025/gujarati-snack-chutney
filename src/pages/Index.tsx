@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-warm">
       {/* Hero Section */}
-      <div className="container mx-auto px-4 flex items-center justify-center min-h-screen">
+      <div className="container mx-auto px-4 flex items-center justify-center min-h-screen pt-16">
         <div className="text-center max-w-4xl">
           {/* Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground leading-tight">

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface Recipe {
   id: string;
@@ -11,6 +13,14 @@ interface Recipe {
   instructions: string[];
 }
 
+const dishColors: Record<string, string> = {
+  "upma": "bg-orange-100 text-orange-800 border-orange-200",
+  "instant-dhokla": "bg-green-100 text-green-800 border-green-200", 
+  "bata-pauna": "bg-blue-100 text-blue-800 border-blue-200",
+  "sev-khamani": "bg-purple-100 text-purple-800 border-purple-200",
+  "khichu": "bg-yellow-100 text-yellow-800 border-yellow-200"
+};
+
 interface RecipeCardProps {
   recipe: Recipe;
 }
@@ -19,13 +29,20 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <Card className="w-full bg-card shadow-soft hover:shadow-warm transition-all duration-300 animate-fade-in">
-      <CardHeader className="pb-4">
-        <CardTitle className="text-2xl font-semibold text-foreground flex items-center justify-between">
-          {recipe.name}
-          <span className="text-3xl ml-2">🥘</span>
-        </CardTitle>
-        <CardDescription className="text-muted-foreground text-base leading-relaxed">
+    <Card className="w-full transition-all duration-300 hover:shadow-xl border border-border/30 bg-card/90 backdrop-blur-sm rounded-xl overflow-hidden">
+      <CardHeader className="pb-4 space-y-3">
+        <div className="flex items-center justify-between">
+          <CardTitle className="text-2xl md:text-3xl font-bold text-foreground">
+            {recipe.name}
+          </CardTitle>
+          <Badge 
+            variant="secondary" 
+            className={cn("text-xs font-medium", dishColors[recipe.id] || "bg-gray-100 text-gray-800")}
+          >
+            Gujarati
+          </Badge>
+        </div>
+        <CardDescription className="text-muted-foreground leading-relaxed text-base">
           {recipe.description}
         </CardDescription>
       </CardHeader>

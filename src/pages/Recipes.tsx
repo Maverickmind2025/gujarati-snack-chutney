@@ -116,9 +116,9 @@ const recipes = [
 
 const Recipes = () => {
   return (
-    <div className="min-h-screen bg-gradient-warm">
+    <div className="min-h-screen bg-gradient-warm pt-16">
       {/* Header */}
-      <div className="bg-card/50 backdrop-blur-sm border-b border-border/50 sticky top-0 z-10">
+      <div className="bg-card/50 backdrop-blur-sm border-b border-border/50 sticky top-16 z-10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <Link 
@@ -147,7 +147,7 @@ const Recipes = () => {
           </p>
         </div>
         
-        <div className="grid gap-6 md:gap-8 max-w-4xl mx-auto">
+        <div className="grid gap-8 md:gap-10 max-w-5xl mx-auto">
           {recipes.map((recipe, index) => (
             <div 
               key={recipe.id} 
