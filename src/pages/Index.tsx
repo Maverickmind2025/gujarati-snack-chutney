@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-warm">
       {/* Header */}
-      <header className="flex flex-col items-center pt-16 px-6 border-b-2" 
+      <header className="flex flex-col items-center text-center py-8 px-4 border-b-2" 
               style={{
                 backgroundColor: 'hsl(var(--header-bg))',
                 borderBottomColor: 'hsl(var(--header-border))'
@@ -21,7 +21,7 @@ const Index = () => {
       </header>
 
       {/* Navigation */}
-      <nav className="sticky top-0 flex justify-center gap-8 py-3 border-b z-10"
+      <nav className="sticky top-0 flex justify-center gap-6 sm:gap-8 py-4 px-2 border-b z-10"
            style={{
              backgroundColor: 'hsl(var(--nav-bg))',
              borderBottomColor: 'hsl(var(--nav-border))'
