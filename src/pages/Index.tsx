@@ -4,21 +4,25 @@ import { HeroButton } from "@/components/ui/hero-button";
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-warm">
-      {/* Hero Section */}
-      <div className="container mx-auto px-4 flex items-center justify-center min-h-screen pt-16">
-        <div className="text-center max-w-4xl">
-          {/* Headline */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground leading-tight">
-            Gujarati Snack Delights{" "}
-            <span className="inline-block text-6xl md:text-8xl">🍽️</span>
-          </h1>
-          
-          {/* Tagline */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 leading-relaxed max-w-2xl mx-auto">
-            Simple, tasty, and made with love — straight from a Mummy's kitchen.
-          </p>
-          
-          {/* CTA Button */}
+      {/* Header */}
+      <header className="flex flex-col items-center pt-16 px-6 border-b-2" 
+              style={{
+                backgroundColor: 'hsl(var(--header-bg))',
+                borderBottomColor: 'hsl(var(--header-border))'
+              }}>
+        <h1 className="font-serif text-4xl m-0" 
+            style={{ color: 'hsl(var(--header-title))' }}>
+          🍽️ Mom's Nasto
+        </h1>
+        <p className="font-sans text-base mt-2 mb-6" 
+           style={{ color: 'hsl(var(--header-subtitle))' }}>
+          Simple, tasty, and made with love — straight from a Mummy's kitchen.
+        </p>
+      </header>
+      
+      {/* Content Section */}
+      <div className="container mx-auto px-4 flex items-center justify-center min-h-[60vh] pt-16">
+        <div className="text-center">
           <Link to="/recipes">
             <HeroButton className="shadow-warm hover:shadow-xl">
               Browse Recipes

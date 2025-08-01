@@ -50,6 +50,12 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    /* Header specific colors */
+    --header-bg: 37 100% 97%;
+    --header-border: 43 100% 49%;
+    --header-title: 27 88% 43%;
+    --header-subtitle: 0 0% 33%;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
