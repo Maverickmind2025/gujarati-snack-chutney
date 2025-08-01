@@ -147,11 +147,12 @@ const Recipes = () => {
           </p>
         </div>
         
-        <div className="grid gap-8 md:gap-10 max-w-5xl mx-auto">
+        {/* Recipe Cards Grid */}
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
           {recipes.map((recipe, index) => (
             <div 
               key={recipe.id} 
-              className="animate-fade-in"
+              className="break-inside-avoid animate-fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <RecipeCard recipe={recipe} />

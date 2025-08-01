@@ -11,6 +11,7 @@ interface Recipe {
   description: string;
   ingredients: string[];
   instructions: string[];
+  image?: string;
 }
 
 const dishColors: Record<string, string> = {
@@ -29,68 +30,90 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <Card className="w-full transition-all duration-300 hover:shadow-xl border border-border/30 bg-card/90 backdrop-blur-sm rounded-xl overflow-hidden">
-      <CardHeader className="pb-4 space-y-3">
-        <div className="flex items-center justify-between">
-          <CardTitle className="text-2xl md:text-3xl font-bold text-foreground">
-            {recipe.name}
-          </CardTitle>
-          <Badge 
-            variant="secondary" 
-            className={cn("text-xs font-medium", dishColors[recipe.id] || "bg-gray-100 text-gray-800")}
-          >
-            Gujarati
-          </Badge>
-        </div>
-        <CardDescription className="text-muted-foreground leading-relaxed text-base">
-          {recipe.description}
-        </CardDescription>
-      </CardHeader>
-      
-      <CardContent className="pt-0">
-        <Button
-          onClick={() => setIsExpanded(!isExpanded)}
-          variant="outline"
-          className="w-full mb-4 border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-200"
-        >
-          {isExpanded ? "Hide Recipe" : "View Recipe"}
-          {isExpanded ? (
-            <ChevronUp className="ml-2 h-4 w-4" />
-          ) : (
-            <ChevronDown className="ml-2 h-4 w-4" />
-          )}
-        </Button>
-        
-        {isExpanded && (
-          <div className="space-y-6 animate-accordion-down">
-            <div>
-              <h4 className="font-semibold text-lg mb-3 text-primary">Ingredients:</h4>
-              <ul className="space-y-1">
-                {recipe.ingredients.map((ingredient, index) => (
-                  <li key={index} className="flex items-start">
-                    <span className="text-primary mr-2">•</span>
-                    <span className="text-foreground">{ingredient}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            
-            <div>
-              <h4 className="font-semibold text-lg mb-3 text-primary">Instructions:</h4>
-              <ol className="space-y-3">
-                {recipe.instructions.map((instruction, index) => (
-                  <li key={index} className="flex items-start">
-                    <span className="bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5 flex-shrink-0">
-                      {index + 1}
-                    </span>
-                    <span className="text-foreground leading-relaxed">{instruction}</span>
-                  </li>
-                ))}
-              </ol>
-            </div>
+    <Card className="w-full h-fit transition-all duration-300 hover:shadow-warm hover:-translate-y-1 border border-border/30 bg-card/95 backdrop-blur-sm rounded-xl overflow-hidden group">
+      <div className="flex gap-4 p-4">
+        {/* Image placeholder */}
+        <div className="flex-shrink-0">
+          <div className="w-[150px] h-[150px] bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg flex items-center justify-center border border-border/20">
+            {recipe.image ? (
+              <img 
+                src={recipe.image} 
+                alt={recipe.name}
+                className="w-full h-full object-cover rounded-lg"
+              />
+            ) : (
+              <div className="text-center">
+                <span className="text-4xl mb-2 block">🍽️</span>
+                <span className="text-xs text-muted-foreground">Recipe Image</span>
+              </div>
+            )}
           </div>
-        )}
-      </CardContent>
+        </div>
+        
+        {/* Content */}
+        <div className="flex-1 min-w-0">
+          <div className="space-y-3">
+            <div className="flex items-start justify-between gap-2">
+              <h3 className="text-xl md:text-2xl font-bold text-foreground leading-tight">
+                {recipe.name}
+              </h3>
+              <Badge 
+                variant="secondary" 
+                className={cn("text-xs font-medium flex-shrink-0", dishColors[recipe.id] || "bg-accent text-accent-foreground")}
+              >
+                Gujarati
+              </Badge>
+            </div>
+            <p className="text-muted-foreground leading-relaxed text-sm md:text-base line-clamp-3">
+              {recipe.description}
+            </p>
+            
+            <Button
+              onClick={() => setIsExpanded(!isExpanded)}
+              variant="outline"
+              size="sm"
+              className="border-primary/30 hover:bg-primary hover:text-primary-foreground transition-all duration-200"
+            >
+              {isExpanded ? "Hide Recipe" : "View Recipe"}
+              {isExpanded ? (
+                <ChevronUp className="ml-2 h-4 w-4" />
+              ) : (
+                <ChevronDown className="ml-2 h-4 w-4" />
+              )}
+            </Button>
+          </div>
+        </div>
+      </div>
+      
+      {isExpanded && (
+        <div className="px-4 pb-4 space-y-6 animate-accordion-down border-t border-border/20 pt-4">
+          <div>
+            <h4 className="font-semibold text-lg mb-3 text-primary">Ingredients:</h4>
+            <ul className="space-y-1">
+              {recipe.ingredients.map((ingredient, index) => (
+                <li key={index} className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span className="text-foreground text-sm">{ingredient}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="font-semibold text-lg mb-3 text-primary">Instructions:</h4>
+            <ol className="space-y-3">
+              {recipe.instructions.map((instruction, index) => (
+                <li key={index} className="flex items-start">
+                  <span className="bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold mr-3 mt-0.5 flex-shrink-0">
+                    {index + 1}
+                  </span>
+                  <span className="text-foreground leading-relaxed text-sm">{instruction}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
+      )}
     </Card>
   );
 };
