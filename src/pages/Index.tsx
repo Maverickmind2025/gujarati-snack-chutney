@@ -20,21 +20,6 @@ const Index = () => {
         </p>
       </header>
 
-      {/* Navigation */}
-      <nav className="sticky top-0 flex justify-center gap-6 sm:gap-8 py-4 px-2 border-b z-10"
-           style={{
-             backgroundColor: 'hsl(var(--nav-bg))',
-             borderBottomColor: 'hsl(var(--nav-border))'
-           }}>
-        <Link to="/" className="no-underline font-bold text-base"
-              style={{ color: 'hsl(var(--nav-link))' }}>
-          🏠 Home
-        </Link>
-        <Link to="/recipes" className="no-underline font-bold text-base"
-              style={{ color: 'hsl(var(--nav-link))' }}>
-          🍽️ All Recipes
-        </Link>
-      </nav>
       
       {/* Content Section */}
       <div className="container mx-auto px-4 flex items-center justify-center min-h-[60vh] pt-16">
