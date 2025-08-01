@@ -56,6 +56,11 @@ All colors MUST be HSL.
     --header-title: 27 88% 43%;
     --header-subtitle: 0 0% 33%;
 
+    /* Navigation specific colors */
+    --nav-bg: 39 100% 94%;
+    --nav-border: 43 100% 49%;
+    --nav-link: 27 88% 43%;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
