@@ -140,7 +140,7 @@ const Recipes = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Authentic Gujarati Snacks 🍽️
+            Authentic Mom's Nasto 🍽️
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Discover the authentic flavors of Gujarat with these time-tested recipes passed down through generations

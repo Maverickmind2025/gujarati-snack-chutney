@@ -11,8 +11,8 @@ const Navigation = () => {
           {/* Logo/Brand */}
           <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
             <span className="text-2xl">🍽️</span>
-            <span className="font-bold text-lg text-foreground hidden sm:block">
-              Gujarati Snacks
+            <span className="font-bold text-lg text-foreground">
+              Mom's Nasto
             </span>
           </Link>
 
