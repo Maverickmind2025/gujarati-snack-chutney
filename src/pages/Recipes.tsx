@@ -347,6 +347,135 @@ const recipes = [
       "Serve hot with curd or chutney.",
       "Tip: Add chopped methi or coriander for variety."
     ]
+  },
+  {
+    id: "methi-muthiya",
+    name: "Methi Muthiya",
+    description: "A steamed or pan-fried Gujarati snack made from whole wheat flour and fresh fenugreek leaves — healthy, lightly spiced, and full of flavor.",
+    ingredients: [
+      "1 cup whole wheat flour",
+      "1/2 cup besan (gram flour)",
+      "1.5 cups chopped fresh methi (fenugreek leaves)",
+      "1/4 cup curd",
+      "1 tsp ginger-green chili paste",
+      "1/2 tsp turmeric",
+      "1/2 tsp red chili powder",
+      "1/2 tsp sugar",
+      "1 tsp lemon juice",
+      "Salt to taste",
+      "1/4 tsp baking soda",
+      "1 tbsp oil (for dough)",
+      "For tempering: mustard seeds, sesame seeds, curry leaves, oil"
+    ],
+    instructions: [
+      "Combine all ingredients to form a soft dough. Add very little water if needed.",
+      "Shape into cylindrical logs.",
+      "Steam for 15–20 minutes or until firm. Let cool slightly and slice into rounds.",
+      "For a crispy version, sauté the slices in a tempering of mustard seeds, sesame, and curry leaves.",
+      "Serve hot with green chutney or ketchup.",
+      "Tip: You can also air-fry or bake instead of steaming and pan-frying for a healthier version."
+    ]
+  },
+  {
+    id: "rice-pancakes",
+    name: "Rice Pancakes",
+    description: "Crisp on the outside, soft on the inside — these quick rice pancakes are a delicious way to use up leftover rice with minimal effort.",
+    ingredients: [
+      "1 cup cooked rice",
+      "1/4 cup rice flour",
+      "1/2 small onion, finely chopped",
+      "1 green chili, finely chopped",
+      "2 tbsp chopped coriander leaves",
+      "1/2 tsp cumin seeds",
+      "Salt to taste",
+      "Water as needed (to make batter)",
+      "Oil for shallow frying"
+    ],
+    instructions: [
+      "Mash cooked rice lightly with your hands or a spoon.",
+      "Mix in rice flour, onion, chili, coriander, cumin seeds, and salt.",
+      "Add just enough water to form a thick, spreadable batter.",
+      "Heat a nonstick tawa or pan, grease with oil, and spread a ladleful of batter into a pancake.",
+      "Cook on medium heat until both sides are golden brown.",
+      "Serve hot with chutney or pickle.",
+      "Tip: Add grated vegetables like carrot or bottle gourd for more nutrition and texture."
+    ]
+  },
+  {
+    id: "toast-handvo",
+    name: "Toast Handvo",
+    description: "A quicker, toast-style version of the traditional Gujarati Handvo — crispy outside, soft and savory inside, perfect for breakfast or a tea-time snack.",
+    ingredients: [
+      "1 cup readymade Handvo flour (or mixed lentil-rice flour)",
+      "1/2 cup curd (yogurt)",
+      "1/4 cup grated bottle gourd (lauki)",
+      "1/4 cup finely chopped vegetables (carrot, capsicum, onion – optional)",
+      "1 tsp ginger-green chili paste",
+      "Salt to taste",
+      "1/4 tsp turmeric powder",
+      "1/2 tsp baking soda or Eno",
+      "Oil or ghee for toasting"
+    ],
+    instructions: [
+      "In a bowl, mix Handvo flour with curd to form a thick batter. Let it rest for 15–20 minutes.",
+      "Add grated vegetables, ginger-chili paste, turmeric, salt, and mix well.",
+      "Just before toasting, add baking soda/Eno and mix gently.",
+      "Heat a tawa or pan, grease with oil/ghee. Pour a ladleful of batter and spread into a thick toast-sized round.",
+      "Cover and cook on low-medium heat till golden and crisp on both sides.",
+      "Serve hot with green chutney or ketchup.",
+      "Tip: Use a sandwich toaster for a quicker, uniformly cooked Toast Handvo."
+    ]
+  },
+  {
+    id: "poha-pancakes",
+    name: "Poha Pancakes",
+    description: "A soft, fluffy fusion pancake made with flattened rice (poha) and basic pantry staples — quick, filling, and perfect for breakfast or a light snack.",
+    ingredients: [
+      "1 cup thick poha (flattened rice)",
+      "1/2 cup curd (yogurt)",
+      "1/4 cup semolina (rava/sooji)",
+      "1/2 tsp baking soda or Eno",
+      "Salt to taste",
+      "1/4 cup grated vegetables (optional – carrot, zucchini, etc.)",
+      "1–2 chopped green chilies",
+      "Fresh coriander (optional)",
+      "Oil or ghee for cooking"
+    ],
+    instructions: [
+      "Wash poha and soak in water for 5 minutes. Drain excess water.",
+      "Blend poha with curd into a smooth paste.",
+      "In a bowl, mix the paste with semolina, salt, chopped chilies, vegetables, and coriander. Let it rest for 10–15 minutes.",
+      "Add baking soda or Eno just before cooking. Mix gently.",
+      "Heat a non-stick pan, grease lightly. Pour a ladleful of batter and spread gently like a thick pancake.",
+      "Cover and cook on medium flame until both sides are golden brown.",
+      "Serve hot with green chutney or ketchup.",
+      "Tip: For extra flavor, sprinkle sesame seeds on top while cooking."
+    ]
+  },
+  {
+    id: "healthy-mini-pancakes",
+    name: "Healthy Mini Pancakes",
+    description: "These bite-sized savory pancakes are soft, protein-rich, and perfect for kids or light eaters. Made with a mix of dal and veggies, they're as nutritious as they are delicious.",
+    ingredients: [
+      "1/2 cup yellow moong dal (soaked 2–3 hours)",
+      "1/4 cup curd (optional)",
+      "1/4 tsp turmeric powder",
+      "1/2 tsp grated ginger",
+      "1 chopped green chili",
+      "1/4 cup finely chopped spinach or methi leaves",
+      "Salt to taste",
+      "1 tsp oil (for each batch)",
+      "Pinch of baking soda or 1/2 tsp Eno (optional)"
+    ],
+    instructions: [
+      "Grind soaked moong dal with ginger, chili, and curd to a smooth batter.",
+      "Mix in turmeric, salt, and chopped greens. Let the batter rest for 10 minutes.",
+      "Just before cooking, add soda or Eno if using.",
+      "Heat a non-stick pan and pour small portions to form mini pancakes.",
+      "Cook on both sides with a little oil till golden and cooked through.",
+      "Serve hot with green chutney or curd.",
+      "Tip: These stay soft even when cool — great for tiffins!"
+    ]
   }
 ];
 
