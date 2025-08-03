@@ -231,6 +231,122 @@ const recipes = [
       "Roll and cook on hot tawa with oil till done.",
       "Tip: Serve with plain dahi or sweet pickle."
     ]
+  },
+  {
+    id: "tawa-handwo",
+    name: "Tawa Handwo",
+    description: "A healthy and crispy pan-fried lentil cake made with fermented batter, loaded with vegetables and tempered with mustard seeds.",
+    ingredients: [
+      "1 cup handvo flour (or mix of rice + lentil flour)",
+      "1/2 cup grated bottle gourd",
+      "1/4 cup grated carrot",
+      "1/4 cup curd",
+      "1 tsp ginger-green chili paste",
+      "1/2 tsp turmeric",
+      "Salt to taste",
+      "1/2 tsp fruit salt (Eno)",
+      "Oil for shallow frying",
+      "Mustard seeds, sesame seeds, curry leaves for tempering"
+    ],
+    instructions: [
+      "Mix flour, curd, veggies, spices, and water to make a thick batter.",
+      "Let it rest for 30 mins to ferment.",
+      "Add Eno just before frying and mix gently.",
+      "Heat a pan with oil, add mustard seeds, sesame seeds, curry leaves.",
+      "Pour batter into small rounds over the tempering and cover-cook both sides till crispy.",
+      "Tip: You can make it with leftover dosa/idli batter too!"
+    ]
+  },
+  {
+    id: "vaghareli-rotli",
+    name: "Vaghareli Rotli",
+    description: "A humble yet flavorful Gujarati dish using leftover rotlis, stir-fried with spices — comfort food at its best.",
+    ingredients: [
+      "4 leftover rotlis (chapatis), cut into strips or pieces",
+      "1 tbsp oil",
+      "1/2 tsp mustard seeds",
+      "1/4 tsp cumin seeds",
+      "1 chopped onion",
+      "1 chopped green chili",
+      "1/4 tsp turmeric",
+      "Salt to taste",
+      "A pinch of sugar",
+      "Lemon juice & coriander to garnish"
+    ],
+    instructions: [
+      "Heat oil in a pan, add mustard and cumin seeds.",
+      "Sauté onion and green chili until soft.",
+      "Add turmeric, salt, sugar, and rotli pieces.",
+      "Stir well till everything is coated and warm.",
+      "Garnish with lemon juice and coriander.",
+      "Tip: Tastes great with curd or raw onion salad."
+    ]
+  },
+  {
+    id: "khatta-meetha-pudla",
+    name: "Khatta Meetha Pudla",
+    description: "A unique savory-sweet Gujarati pancake made from wheat flour and jaggery, spiced mildly — perfect for breakfast or tea.",
+    ingredients: [
+      "1 cup whole wheat flour",
+      "1 tbsp jaggery (grated or melted)",
+      "1/4 tsp turmeric",
+      "1/2 tsp chili-ginger paste",
+      "Salt to taste",
+      "Water to make batter",
+      "Oil or ghee for shallow frying"
+    ],
+    instructions: [
+      "Mix all ingredients with water to make a smooth, pourable batter.",
+      "Heat a pan, pour a ladleful, and spread like a pancake.",
+      "Drizzle oil/ghee and cook both sides till golden.",
+      "Serve hot with chutney or curd.",
+      "Tip: Add a pinch of crushed fennel seeds for a fragrant twist."
+    ]
+  },
+  {
+    id: "khandvi-bites",
+    name: "Khandvi Bites",
+    description: "A soft, rolled snack made from gram flour and yogurt, seasoned with mustard and sesame — bite-sized and irresistible.",
+    ingredients: [
+      "1 cup besan (gram flour)",
+      "1 cup sour curd",
+      "2 cups water",
+      "Salt to taste",
+      "1/4 tsp turmeric",
+      "1 tsp ginger-green chili paste",
+      "For tempering: mustard seeds, sesame seeds, curry leaves, coriander"
+    ],
+    instructions: [
+      "Mix besan, curd, water, turmeric, salt, and chili-ginger paste.",
+      "Cook on low heat stirring constantly until thick.",
+      "Quickly spread the hot batter thinly on a greased surface.",
+      "Once cool, cut and roll tightly into bite-sized pieces.",
+      "Prepare tempering and pour over rolls.",
+      "Tip: Spread fast before batter sets. Timing is key!"
+    ]
+  },
+  {
+    id: "bajra-garlic-pancakes",
+    name: "Bajra Garlic Pancakes",
+    description: "A hearty and rustic Gujarati-style flat pancake made with bajra flour and infused with garlic — great for winter mornings.",
+    ingredients: [
+      "1 cup bajra (pearl millet) flour",
+      "2–3 garlic cloves, crushed",
+      "1/2 tsp ajwain (carom seeds)",
+      "1/4 tsp turmeric",
+      "1 chopped green chili",
+      "Salt to taste",
+      "Warm water (to knead)",
+      "Ghee or oil for cooking"
+    ],
+    instructions: [
+      "Mix flour, garlic, ajwain, chili, turmeric, and salt.",
+      "Add warm water to knead into soft dough.",
+      "Pat into thick pancakes by hand.",
+      "Cook both sides on a hot tawa with ghee/oil until golden.",
+      "Serve hot with curd or chutney.",
+      "Tip: Add chopped methi or coriander for variety."
+    ]
   }
 ];
 
