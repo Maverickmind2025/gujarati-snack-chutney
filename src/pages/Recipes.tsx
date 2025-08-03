@@ -111,6 +111,126 @@ const recipes = [
       "Serve warm, drizzled with oil or pickle masala.",
       "Tip: Eat hot! Hardens on cooling."
     ]
+  },
+  {
+    id: "dudhi-na-muthiya",
+    name: "Dudhi na Muthiya",
+    description: "A soft, steamed snack made from grated bottle gourd, packed with flavor and nutrition.",
+    ingredients: [
+      "1½ cups grated bottle gourd (doodhi)",
+      "1 cup whole wheat flour",
+      "1/2 cup gram flour (besan)",
+      "1 tablespoon semolina (rava)",
+      "1/2 teaspoon turmeric powder",
+      "1 teaspoon ginger-green chili paste",
+      "1/2 teaspoon ajwain (carom seeds)",
+      "1 teaspoon sugar",
+      "Salt to taste",
+      "1 tablespoon lemon juice",
+      "1/2 teaspoon baking soda",
+      "1 tablespoon oil",
+      "For tempering: 1 tsp mustard seeds, sesame seeds, curry leaves, 1 tsp oil"
+    ],
+    instructions: [
+      "Mix all ingredients to make a soft dough. Add little water if needed.",
+      "Shape into cylindrical rolls and steam for 15–20 minutes.",
+      "Let it cool and cut into round slices.",
+      "In a pan, heat oil, add tempering.",
+      "Add sliced muthiya and sauté till lightly golden.",
+      "Tip: Tastes great with green chutney or curd."
+    ]
+  },
+  {
+    id: "bhaat-na-muthiya",
+    name: "Bhaat na Muthiya",
+    description: "A tasty snack made using leftover rice, combined with spices and flours, then steamed or sautéed.",
+    ingredients: [
+      "1 cup cooked rice",
+      "1/2 cup whole wheat flour",
+      "1/2 cup besan (gram flour)",
+      "1 tablespoon semolina (rava)",
+      "1/2 teaspoon turmeric",
+      "1 teaspoon ginger-green chili paste",
+      "Salt to taste",
+      "1 teaspoon sugar",
+      "1/2 teaspoon ajwain",
+      "1 tablespoon lemon juice",
+      "1 tablespoon oil",
+      "For tempering: mustard seeds, sesame seeds, curry leaves"
+    ],
+    instructions: [
+      "Mash rice and mix with all ingredients to form a dough.",
+      "Roll into cylindrical logs. Steam for 15–20 minutes.",
+      "Slice and sauté with tempering in a hot pan.",
+      "Tip: Ideal for using up leftover rice with minimal effort."
+    ]
+  },
+  {
+    id: "khatta-dhokla",
+    name: "Khatta Dhokla",
+    description: "Traditional fermented dhokla that's tangy, soft, and deliciously spongy — perfect for breakfast or tea time.",
+    ingredients: [
+      "1 cup rice",
+      "1/2 cup urad dal",
+      "1/2 cup sour curd",
+      "1/4 tsp baking soda",
+      "1 tsp lemon juice",
+      "Salt to taste",
+      "For tempering: mustard seeds, sesame seeds, green chilies, curry leaves"
+    ],
+    instructions: [
+      "Soak rice and dal separately for 6–8 hrs, grind to a thick batter.",
+      "Ferment overnight. Add curd, soda, lemon juice, and salt.",
+      "Pour into greased dish and steam 15–20 mins.",
+      "Prepare tempering and pour over.",
+      "Tip: Serve with coriander chutney or dry garlic chutney."
+    ]
+  },
+  {
+    id: "carrot-methi-mooli-thepla",
+    name: "Carrot Methi Mooli Thepla",
+    description: "A wholesome thepla variation with grated carrot, radish, and fenugreek — great for breakfast or travel.",
+    ingredients: [
+      "2 cups whole wheat flour",
+      "1/2 cup grated carrot",
+      "1/2 cup grated mooli (radish)",
+      "1/2 cup chopped fresh methi",
+      "1/2 tsp turmeric",
+      "1/2 tsp red chili powder",
+      "1/2 tsp ajwain",
+      "1 tsp ginger-green chili paste",
+      "Salt, water, and oil as needed"
+    ],
+    instructions: [
+      "Mix everything into a dough.",
+      "Roll into theplas and cook on tawa with oil till golden.",
+      "Serve hot with pickle and curd.",
+      "Tip: Great to pack for long train journeys."
+    ]
+  },
+  {
+    id: "beetroot-sesame-thepla",
+    name: "Beetroot & Sesame Thepla",
+    description: "A colorful and nutritious flatbread made with grated beetroot and toasted sesame seeds — earthy, soft, and full of flavor.",
+    ingredients: [
+      "2 cups whole wheat flour",
+      "1 cup grated beetroot",
+      "1 tablespoon white sesame seeds",
+      "1 teaspoon ginger-green chili paste",
+      "1/2 teaspoon turmeric powder",
+      "1/2 teaspoon red chili powder",
+      "1/2 teaspoon cumin powder",
+      "1/2 teaspoon ajwain",
+      "Salt to taste",
+      "1 tablespoon curd",
+      "Water as needed",
+      "Oil for cooking"
+    ],
+    instructions: [
+      "Roast sesame seeds and mix with all ingredients into a soft dough.",
+      "Roll and cook on hot tawa with oil till done.",
+      "Tip: Serve with plain dahi or sweet pickle."
+    ]
   }
 ];
 
