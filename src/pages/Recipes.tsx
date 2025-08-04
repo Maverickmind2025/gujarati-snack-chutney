@@ -476,6 +476,28 @@ const recipes = [
       "Serve hot with green chutney or curd.",
       "Tip: These stay soft even when cool — great for tiffins!"
     ]
+  },
+  {
+    id: "dabeli",
+    name: "Dabeli",
+    description: "A spicy, sweet, tangy Gujarati street food made of mashed potato stuffing inside a bun, topped with sev, chutneys, and pomegranate.",
+    ingredients: [
+      "4 pav buns",
+      "2 boiled potatoes",
+      "2 tbsp Dabeli masala",
+      "2 tbsp tamarind-date chutney",
+      "1 tbsp garlic chutney",
+      "1 tbsp oil",
+      "Salt to taste",
+      "Garnish: roasted peanuts, pomegranate, nylon sev, coriander"
+    ],
+    instructions: [
+      "Mash potatoes. Heat oil and sauté potatoes with Dabeli masala and salt.",
+      "Slice buns, apply garlic chutney and tamarind chutney on inner sides.",
+      "Stuff with potato mix and press. Toast on tawa with butter or ghee.",
+      "Garnish with sev, peanuts, coriander, pomegranate.",
+      "Tip: Wrap in foil for a perfect on-the-go snack."
+    ]
   }
 ];
 
