@@ -498,6 +498,115 @@ const recipes = [
       "Garnish with sev, peanuts, coriander, pomegranate.",
       "Tip: Wrap in foil for a perfect on-the-go snack."
     ]
+  },
+  {
+    id: "moraiyo-ni-khichdi",
+    name: "Moraiyo Ni Khichdi",
+    description: "A light and wholesome vrat-friendly khichdi made from barnyard millet (moraiyo), mildly spiced and perfect for fasting days.",
+    ingredients: [
+      "1/2 cup barnyard millet (moraiyo)",
+      "1 tbsp ghee",
+      "1 tsp cumin seeds",
+      "1 chopped green chili",
+      "1 boiled potato, diced",
+      "1/4 tsp black pepper powder",
+      "Rock salt to taste",
+      "1.5 cups water",
+      "Coriander to garnish"
+    ],
+    instructions: [
+      "Wash and drain millet.",
+      "Heat ghee, add cumin and chili. Sauté.",
+      "Add potatoes and millet, mix well.",
+      "Add water, salt, pepper. Cover and cook until soft.",
+      "Garnish and serve hot.",
+      "Tip: Add crushed peanuts for a protein boost."
+    ]
+  },
+  {
+    id: "banana-almonds-smoothie",
+    name: "Banana & Almonds Smoothie",
+    description: "A nourishing breakfast drink made with ripe bananas, soaked almonds, and milk — energy-packed and naturally sweet.",
+    ingredients: [
+      "2 ripe bananas",
+      "8–10 almonds (soaked, peeled)",
+      "1 cup chilled milk",
+      "1/4 tsp cardamom powder",
+      "1 tsp honey (optional)",
+      "Ice cubes (optional)"
+    ],
+    instructions: [
+      "Blend bananas and almonds until smooth.",
+      "Add milk, cardamom, honey, and ice. Blend again.",
+      "Serve chilled.",
+      "Tip: Replace milk with almond or oat milk for a vegan version."
+    ]
+  },
+  {
+    id: "green-chutney",
+    name: "Green Chutney (Coriander-Mint)",
+    description: "A spicy, tangy chutney made with coriander and mint leaves — a must-have dip for Indian snacks and chaats.",
+    ingredients: [
+      "1 cup coriander leaves",
+      "1/2 cup mint leaves",
+      "2 green chilies",
+      "1-inch ginger",
+      "1 tbsp lemon juice",
+      "Salt to taste",
+      "Water as needed"
+    ],
+    instructions: [
+      "Blend all ingredients into a smooth paste.",
+      "Add water gradually to reach desired consistency.",
+      "Store in an airtight container in the fridge.",
+      "Tip: Add a pinch of sugar for balance if it's too spicy."
+    ]
+  },
+  {
+    id: "gujarati-kobi-marcha-sambharo",
+    name: "Gujarati Kobi Marcha No Sambharo",
+    description: "A quick stir-fry made with cabbage and green peppers — lightly spiced and tempered, served warm as a side or snack.",
+    ingredients: [
+      "1 cup shredded cabbage",
+      "1/2 cup sliced green peppers",
+      "1 tsp mustard seeds",
+      "1 tsp sesame seeds",
+      "1 tbsp oil",
+      "1/4 tsp turmeric",
+      "Salt to taste",
+      "Pinch of asafoetida",
+      "Lemon juice to taste"
+    ],
+    instructions: [
+      "Heat oil, add mustard, sesame, asafoetida.",
+      "Add cabbage and peppers. Stir-fry.",
+      "Add turmeric and salt. Cook 2–3 minutes.",
+      "Finish with lemon juice and serve warm.",
+      "Tip: Best enjoyed fresh, not overcooked."
+    ]
+  },
+  {
+    id: "athela-marcha",
+    name: "Athela Marcha",
+    description: "A spicy, tangy stir-fried green chili pickle — commonly eaten with thepla or khakhra.",
+    ingredients: [
+      "10–12 green chilies (mild)",
+      "2 tbsp crushed mustard seeds",
+      "1 tbsp fenugreek seeds",
+      "1/4 tsp asafoetida",
+      "1/2 tsp turmeric",
+      "2 tbsp lemon juice",
+      "Salt to taste",
+      "2 tbsp oil"
+    ],
+    instructions: [
+      "Slit green chilies.",
+      "Heat oil, add fenugreek, asafoetida, turmeric, mustard.",
+      "Add chilies and salt. Sauté for 3 minutes.",
+      "Turn off heat and mix in lemon juice.",
+      "Cool and store in a jar.",
+      "Tip: Use Bhavnagari chilies for a milder version."
+    ]
   }
 ];
 
