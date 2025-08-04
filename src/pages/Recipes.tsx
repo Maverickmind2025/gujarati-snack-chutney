@@ -607,6 +607,109 @@ const recipes = [
       "Cool and store in a jar.",
       "Tip: Use Bhavnagari chilies for a milder version."
     ]
+  },
+  {
+    id: "vada-pav-sliders",
+    name: "Vada Pav Sliders",
+    description: "A delicious twist on the classic Mumbai vada pav — these cheesy, buttery sliders are packed with bold flavors, layered with chutneys, and toasted to perfection.",
+    ingredients: [
+      "Green Paste:",
+      "20 garlic cloves",
+      "3 green chilies",
+      "Handful of coriander leaves",
+      "Potato Filling:",
+      "3 tbsp oil",
+      "1 tbsp mustard seeds",
+      "10 curry leaves",
+      "A pinch of hing",
+      "1 tbsp turmeric powder",
+      "3 boiled, mashed potatoes",
+      "1 tbsp rock salt",
+      "Dry Garlic Chutney:",
+      "10 garlic cloves",
+      "7–8 dry red chilies",
+      "2 tbsp roasted peanuts",
+      "2 tbsp sesame seeds",
+      "2 tbsp desiccated coconut",
+      "1 tsp Kashmiri red chili powder",
+      "Salt to taste",
+      "Pinch of hing",
+      "Assembly:",
+      "6 pav buns",
+      "Amul butter",
+      "Garlic butter",
+      "Green chutney",
+      "Cheese slices",
+      "Grated cheese",
+      "Whole green chilies (for serving)"
+    ],
+    instructions: [
+      "Blend garlic, chilies, and coriander into a green paste.",
+      "Heat oil, add mustard seeds, curry leaves, hing, turmeric. Add green paste and sauté.",
+      "Mix in mashed potatoes and rock salt. Cook till combined.",
+      "For chutney: grind all dry chutney ingredients into a coarse powder.",
+      "Slice pav horizontally. Layer with butter, green chutney, potato filling, cheese slice, dry chutney, grated cheese.",
+      "Close with top bun, brush garlic butter. Toast until golden and cheese melts.",
+      "Serve hot with whole green chilies.",
+      "Tip: Wrap in foil to make it a great travel snack."
+    ]
+  },
+  {
+    id: "gehun-atta-no-shiro",
+    name: "Gehun Atta No Shiro",
+    description: "A rich, warm halwa made from whole wheat flour, ghee, and jaggery — a classic Gujarati comfort dessert often served during festivities.",
+    ingredients: [
+      "1 cup whole wheat flour",
+      "1/2 cup ghee",
+      "3/4 cup jaggery (grated or powdered)",
+      "2 cups water",
+      "Pinch of cardamom powder"
+    ],
+    instructions: [
+      "Heat ghee in a pan, add wheat flour. Roast on low flame until golden and aromatic.",
+      "Meanwhile, dissolve jaggery in water and warm slightly.",
+      "Slowly add jaggery water to the roasted flour while stirring constantly.",
+      "Cook till mixture thickens and ghee starts to release from sides.",
+      "Add cardamom powder and mix well.",
+      "Tip: Serve hot as prasad or dessert after lunch."
+    ]
+  },
+  {
+    id: "god-papdi",
+    name: "God Papdi (Golpapdi)",
+    description: "A quick Gujarati sweet made from wheat flour, jaggery, and ghee — crumbly, melt-in-mouth texture perfect for festivals or winter treats.",
+    ingredients: [
+      "1 cup whole wheat flour",
+      "1/2 cup ghee",
+      "3/4 cup jaggery (grated or powdered)",
+      "1/4 tsp cardamom powder"
+    ],
+    instructions: [
+      "Heat ghee in a pan, add flour, and roast on low flame until golden brown and aromatic.",
+      "Turn off the heat and let it cool slightly (just enough so jaggery doesn't melt too quickly).",
+      "Add jaggery and cardamom, mix quickly till it blends into the flour.",
+      "Pour mixture into a greased plate and flatten evenly.",
+      "Cut into squares while still warm. Let it cool and set.",
+      "Tip: Store in airtight container for 7–10 days. Great winter energy booster."
+    ]
+  },
+  {
+    id: "til-gud-ni-chikki",
+    name: "Til Gud Ni Chikki",
+    description: "A crunchy brittle made of sesame seeds and jaggery, traditionally prepared during Makar Sankranti — healthy, sweet, and full of calcium.",
+    ingredients: [
+      "1/2 cup white sesame seeds",
+      "1/2 cup jaggery (grated or powdered)",
+      "1 tsp ghee"
+    ],
+    instructions: [
+      "Dry roast sesame seeds till golden and aromatic. Set aside.",
+      "In another pan, heat jaggery with 1 tsp ghee on low flame till it melts and becomes frothy.",
+      "Add roasted sesame seeds and mix quickly.",
+      "Pour onto greased surface and flatten using rolling pin.",
+      "Cut into squares or diamonds while warm.",
+      "Tip: Store in an airtight container. Enjoy as a healthy sweet snack."
+    ]
   }
 ];
 
