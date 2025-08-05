@@ -12,6 +12,8 @@ interface Recipe {
   ingredients: string[];
   instructions: string[];
   image?: string;
+  time: string;
+  difficulty: "Easy" | "Medium" | "Hard";
 }
 
 const dishColors: Record<string, string> = {
@@ -67,6 +69,24 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
             <p className="text-muted-foreground leading-relaxed text-sm md:text-base line-clamp-3">
               {recipe.description}
             </p>
+            
+            {/* Time and Difficulty Badges */}
+            <div className="flex gap-2 flex-wrap">
+              <Badge variant="outline" className="text-xs bg-primary/10 text-primary border-primary/20">
+                ⏱️ {recipe.time}
+              </Badge>
+              <Badge 
+                variant="outline" 
+                className={cn(
+                  "text-xs border-border/30",
+                  recipe.difficulty === "Easy" && "bg-green-50 text-green-700 border-green-200",
+                  recipe.difficulty === "Medium" && "bg-orange-50 text-orange-700 border-orange-200",
+                  recipe.difficulty === "Hard" && "bg-red-50 text-red-700 border-red-200"
+                )}
+              >
+                ⚙️ {recipe.difficulty}
+              </Badge>
+            </div>
             
             <Button
               onClick={() => setIsExpanded(!isExpanded)}
