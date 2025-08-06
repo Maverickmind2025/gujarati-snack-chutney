@@ -3,12 +3,13 @@ import { ArrowLeft } from "lucide-react";
 import RecipeCard from "@/components/RecipeCard";
 
 const recipes = [
-  {
-    id: "upma",
-    name: "Upma",
-    description: "A warm, savory semolina snack that's soft, aromatic, and filling.",
-    time: "15 mins",
-    difficulty: "Easy",
+    {
+      id: "upma",
+      name: "Upma",
+      description: "A warm, savory semolina snack that's soft, aromatic, and filling.",
+      time: "15 mins",
+      difficulty: "Easy" as const,
+      image: "/lovable-uploads/a60f5569-2401-40a1-87c9-3f4bb48bef3e.png",
     ingredients: [
       "1 cup semolina (rava)",
       "1 tbsp ghee or oil",
@@ -33,7 +34,8 @@ const recipes = [
     name: "Instant Dhokla",
     description: "A soft, spongy, steamed chickpea flour cake topped with tempering.",
     time: "25 mins",
-    difficulty: "Easy",
+    difficulty: "Easy" as const,
+    image: "/lovable-uploads/4d7c2dad-dece-46f2-a161-5c6ff108dc0e.png",
     ingredients: [
       "1 cup besan (gram flour)",
       "1/2 cup sour curd",
@@ -59,7 +61,7 @@ const recipes = [
     name: "Bata-Pauna",
     description: "A fried snack of spicy mashed potato filled in triangular bread slices.",
     time: "25 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
     ingredients: [
       "4 boiled potatoes, mashed",
       "1 tsp ginger-garlic paste",
@@ -82,7 +84,8 @@ const recipes = [
     name: "Sev Khamani",
     description: "A spicy-sour snack made from crumbled dhokla, garnished with sev.",
     time: "20 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
+    image: "/lovable-uploads/18d12427-9d64-4d3b-8d31-8c1396cbd5c7.png",
     ingredients: [
       "1 cup crumbled dhokla",
       "1 tsp ginger-chili paste",
@@ -105,7 +108,8 @@ const recipes = [
     name: "Khichu",
     description: "A soft, mildly spiced rice flour snack, steamed and topped with oil.",
     time: "15 mins",
-    difficulty: "Easy",
+    difficulty: "Easy" as const,
+    image: "/lovable-uploads/e9fc0553-4555-4015-bcc3-88bf0ecae7c6.png",
     ingredients: [
       "1 cup rice flour",
       "2.5 cups water",
@@ -127,7 +131,8 @@ const recipes = [
     name: "Dudhi na Muthiya",
     description: "A soft, steamed snack made from grated bottle gourd, packed with flavor and nutrition.",
     time: "30 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
+    image: "/lovable-uploads/3199e150-3003-48e3-aa82-a582b74a11a8.png",
     ingredients: [
       "1½ cups grated bottle gourd (doodhi)",
       "1 cup whole wheat flour",
@@ -157,7 +162,7 @@ const recipes = [
     name: "Bhaat na Muthiya",
     description: "A tasty snack made using leftover rice, combined with spices and flours, then steamed or sautéed.",
     time: "20 mins",
-    difficulty: "Easy",
+    difficulty: "Easy" as const,
     ingredients: [
       "1 cup cooked rice",
       "1/2 cup whole wheat flour",
@@ -184,7 +189,7 @@ const recipes = [
     name: "Khatta Dhokla",
     description: "Traditional fermented dhokla that's tangy, soft, and deliciously spongy — perfect for breakfast or tea time.",
     time: "30 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
     ingredients: [
       "1 cup rice",
       "1/2 cup urad dal",
@@ -207,7 +212,8 @@ const recipes = [
     name: "Carrot Methi Mooli Thepla",
     description: "A wholesome thepla variation with grated carrot, radish, and fenugreek — great for breakfast or travel.",
     time: "30 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
+    image: "/lovable-uploads/109b4d86-ae87-42b1-bfcd-9820293572ba.png",
     ingredients: [
       "2 cups whole wheat flour",
       "1/2 cup grated carrot",
@@ -231,7 +237,7 @@ const recipes = [
     name: "Beetroot & Sesame Thepla",
     description: "A colorful and nutritious flatbread made with grated beetroot and toasted sesame seeds — earthy, soft, and full of flavor.",
     time: "30 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
     ingredients: [
       "2 cups whole wheat flour",
       "1 cup grated beetroot",
@@ -257,7 +263,8 @@ const recipes = [
     name: "Tawa Handwo",
     description: "A healthy and crispy pan-fried lentil cake made with fermented batter, loaded with vegetables and tempered with mustard seeds.",
     time: "35 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
+    image: "/lovable-uploads/2d942bfb-30ae-45ae-8652-cc9bce7519da.png",
     ingredients: [
       "1 cup handvo flour (or mix of rice + lentil flour)",
       "1/2 cup grated bottle gourd",
@@ -284,7 +291,8 @@ const recipes = [
     name: "Vaghareli Rotli",
     description: "A humble yet flavorful Gujarati dish using leftover rotlis, stir-fried with spices — comfort food at its best.",
     time: "15 mins",
-    difficulty: "Easy",
+    difficulty: "Easy" as const,
+    image: "/lovable-uploads/d6a24561-0cb3-466b-9c85-23deaf4e8c01.png",
     ingredients: [
       "4 leftover rotlis (chapatis), cut into strips or pieces",
       "1 tbsp oil",
@@ -311,7 +319,7 @@ const recipes = [
     name: "Khatta Meetha Pudla",
     description: "A unique savory-sweet Gujarati pancake made from wheat flour and jaggery, spiced mildly — perfect for breakfast or tea.",
     time: "20 mins",
-    difficulty: "Easy",
+    difficulty: "Easy" as const,
     ingredients: [
       "1 cup whole wheat flour",
       "1 tbsp jaggery (grated or melted)",
@@ -334,7 +342,7 @@ const recipes = [
     name: "Khandvi Bites",
     description: "A soft, rolled snack made from gram flour and yogurt, seasoned with mustard and sesame — bite-sized and irresistible.",
     time: "30 mins",
-    difficulty: "Hard",
+    difficulty: "Hard" as const,
     ingredients: [
       "1 cup besan (gram flour)",
       "1 cup sour curd",
@@ -358,7 +366,7 @@ const recipes = [
     name: "Bajra Garlic Pancakes",
     description: "A hearty and rustic Gujarati-style flat pancake made with bajra flour and infused with garlic — great for winter mornings.",
     time: "20 mins",
-    difficulty: "Easy",
+    difficulty: "Easy" as const,
     ingredients: [
       "1 cup bajra (pearl millet) flour",
       "2–3 garlic cloves, crushed",
@@ -383,7 +391,7 @@ const recipes = [
     name: "Methi Muthiya",
     description: "A steamed or pan-fried Gujarati snack made from whole wheat flour and fresh fenugreek leaves — healthy, lightly spiced, and full of flavor.",
     time: "25 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
     ingredients: [
       "1 cup whole wheat flour",
       "1/2 cup besan (gram flour)",
@@ -413,7 +421,7 @@ const recipes = [
     name: "Rice Pancakes",
     description: "Crisp on the outside, soft on the inside — these quick rice pancakes are a delicious way to use up leftover rice with minimal effort.",
     time: "20 mins",
-    difficulty: "Easy",
+    difficulty: "Easy" as const,
     ingredients: [
       "1 cup cooked rice",
       "1/4 cup rice flour",
@@ -440,7 +448,7 @@ const recipes = [
     name: "Toast Handvo",
     description: "A quicker, toast-style version of the traditional Gujarati Handvo — crispy outside, soft and savory inside, perfect for breakfast or a tea-time snack.",
     time: "25 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
     ingredients: [
       "1 cup readymade Handvo flour (or mixed lentil-rice flour)",
       "1/2 cup curd (yogurt)",
@@ -467,7 +475,7 @@ const recipes = [
     name: "Poha Pancakes",
     description: "A soft, fluffy fusion pancake made with flattened rice (poha) and basic pantry staples — quick, filling, and perfect for breakfast or a light snack.",
     time: "20 mins",
-    difficulty: "Easy",
+    difficulty: "Easy" as const,
     ingredients: [
       "1 cup thick poha (flattened rice)",
       "1/2 cup curd (yogurt)",
@@ -495,7 +503,7 @@ const recipes = [
     name: "Healthy Mini Pancakes",
     description: "These bite-sized savory pancakes are soft, protein-rich, and perfect for kids or light eaters. Made with a mix of dal and veggies, they're as nutritious as they are delicious.",
     time: "20 mins",
-    difficulty: "Easy",
+    difficulty: "Easy" as const,
     ingredients: [
       "1/2 cup yellow moong dal (soaked 2–3 hours)",
       "1/4 cup curd (optional)",
@@ -522,7 +530,7 @@ const recipes = [
     name: "Dabeli",
     description: "A spicy, sweet, tangy Gujarati street food made of mashed potato stuffing inside a bun, topped with sev, chutneys, and pomegranate.",
     time: "20 mins",
-    difficulty: "Medium",
+    difficulty: "Medium" as const,
     ingredients: [
       "4 pav buns",
       "2 boiled potatoes",
@@ -541,12 +549,13 @@ const recipes = [
       "Tip: Wrap in foil for a perfect on-the-go snack."
     ]
   },
-  {
-    id: "moraiyo-ni-khichdi",
-    name: "Moraiyo Ni Khichdi",
-    description: "A light and wholesome vrat-friendly khichdi made from barnyard millet (moraiyo), mildly spiced and perfect for fasting days.",
-    time: "25 mins",
-    difficulty: "Easy",
+    {
+      id: "moraiyo-ni-khichdi",
+      name: "Moraiyo Ni Khichdi",
+      description: "A light and wholesome vrat-friendly khichdi made from barnyard millet (moraiyo), mildly spiced and perfect for fasting days.",
+      time: "25 mins",
+      difficulty: "Easy" as const,
+      image: "/lovable-uploads/90b8c919-65c9-4cfb-acaa-32ca32cebf53.png",
     ingredients: [
       "1/2 cup barnyard millet (moraiyo)",
       "1 tbsp ghee",
@@ -567,12 +576,12 @@ const recipes = [
       "Tip: Add crushed peanuts for a protein boost."
     ]
   },
-  {
-    id: "banana-almonds-smoothie",
-    name: "Banana & Almonds Smoothie",
-    description: "A nourishing breakfast drink made with ripe bananas, soaked almonds, and milk — energy-packed and naturally sweet.",
-    time: "5 mins",
-    difficulty: "Easy",
+      {
+        id: "banana-almonds-smoothie",
+        name: "Banana & Almonds Smoothie",
+        description: "A nourishing breakfast drink made with ripe bananas, soaked almonds, and milk — energy-packed and naturally sweet.",
+        time: "5 mins",
+        difficulty: "Easy" as const,
     ingredients: [
       "2 ripe bananas",
       "8–10 almonds (soaked, peeled)",
@@ -588,12 +597,12 @@ const recipes = [
       "Tip: Replace milk with almond or oat milk for a vegan version."
     ]
   },
-  {
-    id: "green-chutney",
-    name: "Green Chutney (Coriander-Mint)",
-    description: "A spicy, tangy chutney made with coriander and mint leaves — a must-have dip for Indian snacks and chaats.",
-    time: "10 mins",
-    difficulty: "Easy",
+      {
+        id: "green-chutney",
+        name: "Green Chutney (Coriander-Mint)",
+        description: "A spicy, tangy chutney made with coriander and mint leaves — a must-have dip for Indian snacks and chaats.",
+        time: "10 mins",
+        difficulty: "Easy" as const,
     ingredients: [
       "1 cup coriander leaves",
       "1/2 cup mint leaves",
@@ -610,12 +619,12 @@ const recipes = [
       "Tip: Add a pinch of sugar for balance if it's too spicy."
     ]
   },
-  {
-    id: "gujarati-kobi-marcha-sambharo",
-    name: "Gujarati Kobi Marcha No Sambharo",
-    description: "A quick stir-fry made with cabbage and green peppers — lightly spiced and tempered, served warm as a side or snack.",
-    time: "15 mins",
-    difficulty: "Easy",
+    {
+      id: "gujarati-kobi-marcha-sambharo",
+      name: "Gujarati Kobi Marcha No Sambharo",
+      description: "A quick stir-fry made with cabbage and green peppers — lightly spiced and tempered, served warm as a side or snack.",
+      time: "15 mins",
+      difficulty: "Easy" as const,
     ingredients: [
       "1 cup shredded cabbage",
       "1/2 cup sliced green peppers",
@@ -635,12 +644,12 @@ const recipes = [
       "Tip: Best enjoyed fresh, not overcooked."
     ]
   },
-  {
-    id: "athela-marcha",
-    name: "Athela Marcha",
-    description: "A spicy, tangy stir-fried green chili pickle — commonly eaten with thepla or khakhra.",
-    time: "10 mins",
-    difficulty: "Easy",
+      {
+        id: "athela-marcha",
+        name: "Athela Marcha",
+        description: "A spicy, tangy stir-fried green chili pickle — commonly eaten with thepla or khakhra.",
+        time: "10 mins",
+        difficulty: "Easy" as const,
     ingredients: [
       "10–12 green chilies (mild)",
       "2 tbsp crushed mustard seeds",
@@ -660,12 +669,12 @@ const recipes = [
       "Tip: Use Bhavnagari chilies for a milder version."
     ]
   },
-  {
-    id: "vada-pav-sliders",
-    name: "Vada Pav Sliders",
-    description: "A delicious twist on the classic Mumbai vada pav — these cheesy, buttery sliders are packed with bold flavors, layered with chutneys, and toasted to perfection.",
-    time: "30 mins",
-    difficulty: "Medium",
+    {
+      id: "vada-pav-sliders",
+      name: "Vada Pav Sliders",
+      description: "A delicious twist on the classic Mumbai vada pav — these cheesy, buttery sliders are packed with bold flavors, layered with chutneys, and toasted to perfection.",
+      time: "30 mins",
+      difficulty: "Medium" as const,
     ingredients: [
       "Green Paste:",
       "20 garlic cloves",
@@ -708,12 +717,12 @@ const recipes = [
       "Tip: Wrap in foil to make it a great travel snack."
     ]
   },
-  {
-    id: "gehun-atta-no-shiro",
-    name: "Gehun Atta No Shiro",
-    description: "A rich, warm halwa made from whole wheat flour, ghee, and jaggery — a classic Gujarati comfort dessert often served during festivities.",
-    time: "20 mins",
-    difficulty: "Easy",
+    {
+      id: "gehun-atta-no-shiro",
+      name: "Gehun Atta No Shiro",
+      description: "A rich, warm halwa made from whole wheat flour, ghee, and jaggery — a classic Gujarati comfort dessert often served during festivities.",
+      time: "20 mins",
+      difficulty: "Easy" as const,
     ingredients: [
       "1 cup whole wheat flour",
       "1/2 cup ghee",
@@ -730,12 +739,12 @@ const recipes = [
       "Tip: Serve hot as prasad or dessert after lunch."
     ]
   },
-  {
-    id: "god-papdi",
-    name: "God Papdi (Golpapdi)",
-    description: "A quick Gujarati sweet made from wheat flour, jaggery, and ghee — crumbly, melt-in-mouth texture perfect for festivals or winter treats.",
-    time: "15 mins",
-    difficulty: "Easy",
+      {
+        id: "god-papdi",
+        name: "God Papdi (Golpapdi)",
+        description: "A quick Gujarati sweet made from wheat flour, jaggery, and ghee — crumbly, melt-in-mouth texture perfect for festivals or winter treats.",
+        time: "15 mins",
+        difficulty: "Easy" as const,
     ingredients: [
       "1 cup whole wheat flour",
       "1/2 cup ghee",
@@ -751,12 +760,12 @@ const recipes = [
       "Tip: Store in airtight container for 7–10 days. Great winter energy booster."
     ]
   },
-  {
-    id: "til-gud-ni-chikki",
-    name: "Til Gud Ni Chikki",
-    description: "A crunchy brittle made of sesame seeds and jaggery, traditionally prepared during Makar Sankranti — healthy, sweet, and full of calcium.",
-    time: "15 mins",
-    difficulty: "Medium",
+      {
+        id: "til-gud-ni-chikki",
+        name: "Til Gud Ni Chikki",
+        description: "A crunchy brittle made of sesame seeds and jaggery, traditionally prepared during Makar Sankranti — healthy, sweet, and full of calcium.",
+        time: "15 mins",
+        difficulty: "Medium" as const,
     ingredients: [
       "1/2 cup white sesame seeds",
       "1/2 cup jaggery (grated or powdered)",
