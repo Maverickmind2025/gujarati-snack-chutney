@@ -9,7 +9,7 @@ const recipes = [
       description: "A warm, savory semolina snack that's soft, aromatic, and filling.",
       time: "15 mins",
       difficulty: "Easy" as const,
-      image: "/lovable-uploads/a60f5569-2401-40a1-87c9-3f4bb48bef3e.png",
+      image: "/lovable-uploads/90b8c919-65c9-4cfb-acaa-32ca32cebf53.png",
     ingredients: [
       "1 cup semolina (rava)",
       "1 tbsp ghee or oil",
@@ -62,6 +62,7 @@ const recipes = [
     description: "A fried snack of spicy mashed potato filled in triangular bread slices.",
     time: "25 mins",
     difficulty: "Medium" as const,
+    image: "/lovable-uploads/a60f5569-2401-40a1-87c9-3f4bb48bef3e.png",
     ingredients: [
       "4 boiled potatoes, mashed",
       "1 tsp ginger-garlic paste",
@@ -85,7 +86,7 @@ const recipes = [
     description: "A spicy-sour snack made from crumbled dhokla, garnished with sev.",
     time: "20 mins",
     difficulty: "Medium" as const,
-    image: "/lovable-uploads/18d12427-9d64-4d3b-8d31-8c1396cbd5c7.png",
+    image: "/lovable-uploads/e9fc0553-4555-4015-bcc3-88bf0ecae7c6.png",
     ingredients: [
       "1 cup crumbled dhokla",
       "1 tsp ginger-chili paste",
@@ -109,7 +110,7 @@ const recipes = [
     description: "A soft, mildly spiced rice flour snack, steamed and topped with oil.",
     time: "15 mins",
     difficulty: "Easy" as const,
-    image: "/lovable-uploads/e9fc0553-4555-4015-bcc3-88bf0ecae7c6.png",
+      image: "/lovable-uploads/18d12427-9d64-4d3b-8d31-8c1396cbd5c7.png",
     ingredients: [
       "1 cup rice flour",
       "2.5 cups water",
@@ -190,6 +191,7 @@ const recipes = [
     description: "Traditional fermented dhokla that's tangy, soft, and deliciously spongy — perfect for breakfast or tea time.",
     time: "30 mins",
     difficulty: "Medium" as const,
+    image: "/lovable-uploads/e9fc0553-4555-4015-bcc3-88bf0ecae7c6.png",
     ingredients: [
       "1 cup rice",
       "1/2 cup urad dal",
@@ -555,7 +557,6 @@ const recipes = [
       description: "A light and wholesome vrat-friendly khichdi made from barnyard millet (moraiyo), mildly spiced and perfect for fasting days.",
       time: "25 mins",
       difficulty: "Easy" as const,
-      image: "/lovable-uploads/90b8c919-65c9-4cfb-acaa-32ca32cebf53.png",
     ingredients: [
       "1/2 cup barnyard millet (moraiyo)",
       "1 tbsp ghee",
