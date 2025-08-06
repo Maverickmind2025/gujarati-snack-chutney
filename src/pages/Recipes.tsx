@@ -86,7 +86,7 @@ const recipes = [
     description: "A spicy-sour snack made from crumbled dhokla, garnished with sev.",
     time: "20 mins",
     difficulty: "Medium" as const,
-    image: "/lovable-uploads/e9fc0553-4555-4015-bcc3-88bf0ecae7c6.png",
+      image: "/lovable-uploads/2d942bfb-30ae-45ae-8652-cc9bce7519da.png",
     ingredients: [
       "1 cup crumbled dhokla",
       "1 tsp ginger-chili paste",
@@ -266,7 +266,7 @@ const recipes = [
     description: "A healthy and crispy pan-fried lentil cake made with fermented batter, loaded with vegetables and tempered with mustard seeds.",
     time: "35 mins",
     difficulty: "Medium" as const,
-    image: "/lovable-uploads/2d942bfb-30ae-45ae-8652-cc9bce7519da.png",
+      image: "/lovable-uploads/d6a24561-0cb3-466b-9c85-23deaf4e8c01.png",
     ingredients: [
       "1 cup handvo flour (or mix of rice + lentil flour)",
       "1/2 cup grated bottle gourd",
@@ -294,7 +294,6 @@ const recipes = [
     description: "A humble yet flavorful Gujarati dish using leftover rotlis, stir-fried with spices — comfort food at its best.",
     time: "15 mins",
     difficulty: "Easy" as const,
-    image: "/lovable-uploads/d6a24561-0cb3-466b-9c85-23deaf4e8c01.png",
     ingredients: [
       "4 leftover rotlis (chapatis), cut into strips or pieces",
       "1 tbsp oil",
