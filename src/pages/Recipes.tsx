@@ -164,6 +164,7 @@ const recipes = [
     description: "A tasty snack made using leftover rice, combined with spices and flours, then steamed or sautéed.",
     time: "20 mins",
     difficulty: "Easy" as const,
+    image: "/lovable-uploads/77608add-a4ba-4569-89de-813d5b75abb2.png",
     ingredients: [
       "1 cup cooked rice",
       "1/2 cup whole wheat flour",
@@ -240,6 +241,7 @@ const recipes = [
     description: "A colorful and nutritious flatbread made with grated beetroot and toasted sesame seeds — earthy, soft, and full of flavor.",
     time: "30 mins",
     difficulty: "Medium" as const,
+    image: "/lovable-uploads/524a4d99-ee93-4e3a-b722-8c2ed0b49896.png",
     ingredients: [
       "2 cups whole wheat flour",
       "1 cup grated beetroot",
@@ -505,6 +507,7 @@ const recipes = [
     description: "These bite-sized savory pancakes are soft, protein-rich, and perfect for kids or light eaters. Made with a mix of dal and veggies, they're as nutritious as they are delicious.",
     time: "20 mins",
     difficulty: "Easy" as const,
+    image: "/lovable-uploads/7bb7ca2a-744a-4271-b0f7-8a5444f3b145.png",
     ingredients: [
       "1/2 cup yellow moong dal (soaked 2–3 hours)",
       "1/4 cup curd (optional)",
@@ -532,6 +535,7 @@ const recipes = [
     description: "A spicy, sweet, tangy Gujarati street food made of mashed potato stuffing inside a bun, topped with sev, chutneys, and pomegranate.",
     time: "20 mins",
     difficulty: "Medium" as const,
+    image: "/lovable-uploads/a2781521-8c70-4d39-8ff1-32a6cef49cb3.png",
     ingredients: [
       "4 pav buns",
       "2 boiled potatoes",
@@ -582,6 +586,7 @@ const recipes = [
         description: "A nourishing breakfast drink made with ripe bananas, soaked almonds, and milk — energy-packed and naturally sweet.",
         time: "5 mins",
         difficulty: "Easy" as const,
+        image: "/lovable-uploads/a0778050-4d0a-4b5f-aaf3-dc7cd7e0e071.png",
     ingredients: [
       "2 ripe bananas",
       "8–10 almonds (soaked, peeled)",
@@ -603,6 +608,7 @@ const recipes = [
         description: "A spicy, tangy chutney made with coriander and mint leaves — a must-have dip for Indian snacks and chaats.",
         time: "10 mins",
         difficulty: "Easy" as const,
+        image: "/lovable-uploads/0ba78248-f01f-40b6-ba3a-fe83058f3778.png",
     ingredients: [
       "1 cup coriander leaves",
       "1/2 cup mint leaves",
@@ -624,7 +630,8 @@ const recipes = [
       name: "Gujarati Kobi Marcha No Sambharo",
       description: "A quick stir-fry made with cabbage and green peppers — lightly spiced and tempered, served warm as a side or snack.",
       time: "15 mins",
-      difficulty: "Easy" as const,
+       difficulty: "Easy" as const,
+       image: "/lovable-uploads/af9e454b-59c9-4706-bcdd-4e35ebd72b58.png",
     ingredients: [
       "1 cup shredded cabbage",
       "1/2 cup sliced green peppers",
@@ -650,6 +657,7 @@ const recipes = [
         description: "A spicy, tangy stir-fried green chili pickle — commonly eaten with thepla or khakhra.",
         time: "10 mins",
         difficulty: "Easy" as const,
+        image: "/lovable-uploads/bc1b56bd-515d-440a-9203-f3658318d038.png",
     ingredients: [
       "10–12 green chilies (mild)",
       "2 tbsp crushed mustard seeds",
@@ -723,6 +731,7 @@ const recipes = [
       description: "A rich, warm halwa made from whole wheat flour, ghee, and jaggery — a classic Gujarati comfort dessert often served during festivities.",
       time: "20 mins",
       difficulty: "Easy" as const,
+      image: "/lovable-uploads/3d6774f3-f28d-4f79-b662-c2a62b598b76.png",
     ingredients: [
       "1 cup whole wheat flour",
       "1/2 cup ghee",
@@ -745,6 +754,7 @@ const recipes = [
         description: "A quick Gujarati sweet made from wheat flour, jaggery, and ghee — crumbly, melt-in-mouth texture perfect for festivals or winter treats.",
         time: "15 mins",
         difficulty: "Easy" as const,
+        image: "/lovable-uploads/0e55a688-fe48-46a0-be33-cc6e853dcf3b.png",
     ingredients: [
       "1 cup whole wheat flour",
       "1/2 cup ghee",
