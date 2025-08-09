@@ -373,6 +373,7 @@ const recipes = [
     description: "A hearty and rustic Gujarati-style flat pancake made with bajra flour and infused with garlic — great for winter mornings.",
     time: "20 mins",
     difficulty: "Easy" as const,
+    image: "/lovable-uploads/7bb7ca2a-744a-4271-b0f7-8a5444f3b145.png",
     ingredients: [
       "1 cup bajra (pearl millet) flour",
       "2–3 garlic cloves, crushed",
