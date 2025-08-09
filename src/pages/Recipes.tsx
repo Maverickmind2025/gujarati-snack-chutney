@@ -296,6 +296,7 @@ const recipes = [
     description: "A humble yet flavorful Gujarati dish using leftover rotlis, stir-fried with spices — comfort food at its best.",
     time: "15 mins",
     difficulty: "Easy" as const,
+    image: "/lovable-uploads/02850e1f-748e-4b69-8e14-167724bfe88e.png",
     ingredients: [
       "4 leftover rotlis (chapatis), cut into strips or pieces",
       "1 tbsp oil",
@@ -323,6 +324,7 @@ const recipes = [
     description: "A unique savory-sweet Gujarati pancake made from wheat flour and jaggery, spiced mildly — perfect for breakfast or tea.",
     time: "20 mins",
     difficulty: "Easy" as const,
+    image: "/lovable-uploads/3a4e14c0-5409-4096-a828-dfdb075dc80e.png",
     ingredients: [
       "1 cup whole wheat flour",
       "1 tbsp jaggery (grated or melted)",
@@ -346,6 +348,7 @@ const recipes = [
     description: "A soft, rolled snack made from gram flour and yogurt, seasoned with mustard and sesame — bite-sized and irresistible.",
     time: "30 mins",
     difficulty: "Hard" as const,
+    image: "/lovable-uploads/d37ae5a1-2349-48b8-b47c-5b8f3eb90024.png",
     ingredients: [
       "1 cup besan (gram flour)",
       "1 cup sour curd",
@@ -395,6 +398,7 @@ const recipes = [
     description: "A steamed or pan-fried Gujarati snack made from whole wheat flour and fresh fenugreek leaves — healthy, lightly spiced, and full of flavor.",
     time: "25 mins",
     difficulty: "Medium" as const,
+    image: "/lovable-uploads/c2380026-cb00-45ab-88f1-2737afb75c42.png",
     ingredients: [
       "1 cup whole wheat flour",
       "1/2 cup besan (gram flour)",
@@ -425,6 +429,7 @@ const recipes = [
     description: "Crisp on the outside, soft on the inside — these quick rice pancakes are a delicious way to use up leftover rice with minimal effort.",
     time: "20 mins",
     difficulty: "Easy" as const,
+    image: "/lovable-uploads/f7536959-092a-456e-b615-c682d4db7523.png",
     ingredients: [
       "1 cup cooked rice",
       "1/4 cup rice flour",
@@ -452,6 +457,7 @@ const recipes = [
     description: "A quicker, toast-style version of the traditional Gujarati Handvo — crispy outside, soft and savory inside, perfect for breakfast or a tea-time snack.",
     time: "25 mins",
     difficulty: "Medium" as const,
+    image: "/lovable-uploads/0a389271-9491-4676-9e44-8013130aa192.png",
     ingredients: [
       "1 cup readymade Handvo flour (or mixed lentil-rice flour)",
       "1/2 cup curd (yogurt)",
@@ -479,6 +485,7 @@ const recipes = [
     description: "A soft, fluffy fusion pancake made with flattened rice (poha) and basic pantry staples — quick, filling, and perfect for breakfast or a light snack.",
     time: "20 mins",
     difficulty: "Easy" as const,
+    image: "/lovable-uploads/83a15682-649e-423d-a2b5-6c8cfe88543e.png",
     ingredients: [
       "1 cup thick poha (flattened rice)",
       "1/2 cup curd (yogurt)",
@@ -559,7 +566,8 @@ const recipes = [
       name: "Moraiyo Ni Khichdi",
       description: "A light and wholesome vrat-friendly khichdi made from barnyard millet (moraiyo), mildly spiced and perfect for fasting days.",
       time: "25 mins",
-      difficulty: "Easy" as const,
+    difficulty: "Easy" as const,
+    image: "/lovable-uploads/6ca2f026-b3ed-4bf4-ab48-14f9e267d4c4.png",
     ingredients: [
       "1/2 cup barnyard millet (moraiyo)",
       "1 tbsp ghee",
@@ -682,7 +690,8 @@ const recipes = [
       name: "Vada Pav Sliders",
       description: "A delicious twist on the classic Mumbai vada pav — these cheesy, buttery sliders are packed with bold flavors, layered with chutneys, and toasted to perfection.",
       time: "30 mins",
-      difficulty: "Medium" as const,
+    difficulty: "Medium" as const,
+    image: "/lovable-uploads/166586ff-3443-473e-8378-8a35e9d6f32c.png",
     ingredients: [
       "Green Paste:",
       "20 garlic cloves",
@@ -775,7 +784,8 @@ const recipes = [
         name: "Til Gud Ni Chikki",
         description: "A crunchy brittle made of sesame seeds and jaggery, traditionally prepared during Makar Sankranti — healthy, sweet, and full of calcium.",
         time: "15 mins",
-        difficulty: "Medium" as const,
+    difficulty: "Medium" as const,
+    image: "/lovable-uploads/27564975-020b-46be-bc14-75ef543cc315.png",
     ingredients: [
       "1/2 cup white sesame seeds",
       "1/2 cup jaggery (grated or powdered)",
