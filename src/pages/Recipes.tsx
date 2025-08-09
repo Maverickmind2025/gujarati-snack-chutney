@@ -515,7 +515,7 @@ const recipes = [
     description: "These bite-sized savory pancakes are soft, protein-rich, and perfect for kids or light eaters. Made with a mix of dal and veggies, they're as nutritious as they are delicious.",
     time: "20 mins",
     difficulty: "Easy" as const,
-    image: "/lovable-uploads/7bb7ca2a-744a-4271-b0f7-8a5444f3b145.png",
+    image: "/lovable-uploads/03b195eb-9f84-4e82-9417-4b992d1957e7.png",
     ingredients: [
       "1/2 cup yellow moong dal (soaked 2–3 hours)",
       "1/4 cup curd (optional)",
