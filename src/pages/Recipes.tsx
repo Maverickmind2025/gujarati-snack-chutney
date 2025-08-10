@@ -805,7 +805,7 @@ const recipes = [
 
 const Recipes = () => {
   return (
-    <div className="min-h-screen bg-gradient-warm pt-16">
+    <div className="min-h-screen bg-background pt-16">
       {/* Header */}
       <div className="bg-card/50 backdrop-blur-sm border-b border-border/50 sticky top-16 z-10">
         <div className="container mx-auto px-4 py-4">
@@ -845,6 +845,8 @@ const Recipes = () => {
             </div>
           ))}
         </div>
+        
+        <div className="my-8 h-px bg-neutral-200/90" />
 
         {/* Footer */}
         <div className="text-center mt-12 py-8">

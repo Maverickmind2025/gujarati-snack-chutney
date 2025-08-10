@@ -32,7 +32,7 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <Card className="w-full h-fit transition-all duration-300 hover:shadow-warm hover:-translate-y-1 border border-border/30 bg-card/95 backdrop-blur-sm rounded-xl overflow-hidden group">
+    <Card className="w-full h-fit transition-all duration-300 hover:shadow-warm hover:-translate-y-1 border border-border/30 bg-card/95 rounded-xl overflow-hidden group">
       <div className="flex gap-4 p-4">
         {/* Image placeholder */}
         <div className="flex-shrink-0">
