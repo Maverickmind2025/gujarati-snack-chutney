@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import RecipeCard from "@/components/RecipeCard";
 
@@ -804,6 +804,36 @@ const recipes = [
 ];
 
 const Recipes = () => {
+  const [searchParams] = useSearchParams();
+  const q = (searchParams.get('q') || '').trim().toLowerCase();
+  const tag = (searchParams.get('tag') || '').trim().toLowerCase();
+
+  const tagMatch = (r: { description?: string }, t: string) => {
+    const d = (r.description || '').toLowerCase();
+    switch (t) {
+      case 'snacks':
+        return d.includes('snack') || d.includes('breakfast') || d.includes('tea') || d.includes('tiffin');
+      case 'steamed':
+        return d.includes('steamed');
+      case 'pan-fried':
+        return d.includes('pan-fried') || d.includes('tawa') || d.includes('toast') || d.includes('shallow') || d.includes('fried');
+      case 'street food':
+        return d.includes('street');
+      case 'sweets':
+        return d.includes('sweet') || d.includes('dessert') || d.includes('halwa') || d.includes('chikki') || d.includes('papdi') || d.includes('shiro');
+      case 'chutneys':
+        return d.includes('chutney');
+      default:
+        return false;
+    }
+  };
+
+  const filteredRecipes = recipes.filter((r) => {
+    const matchesQ = q ? r.name.toLowerCase().includes(q) : true;
+    const matchesT = tag ? tagMatch(r, tag) : true;
+    return matchesQ && matchesT;
+  });
+
   return (
     <div className="min-h-screen bg-background pt-16">
       {/* Header */}
@@ -835,7 +865,7 @@ const Recipes = () => {
         
         {/* Recipe Cards Grid */}
         <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
-          {recipes.map((recipe, index) => (
+          {filteredRecipes.map((recipe, index) => (
             <div 
               key={recipe.id} 
               className="break-inside-avoid animate-fade-in"
