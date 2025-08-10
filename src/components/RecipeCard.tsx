@@ -59,12 +59,6 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe }) => {
               <h3 className="text-xl md:text-2xl font-bold text-foreground leading-tight">
                 {recipe.name}
               </h3>
-              <Badge 
-                variant="secondary" 
-                className={cn("text-xs font-medium flex-shrink-0", dishColors[recipe.id] || "bg-accent text-accent-foreground")}
-              >
-                Gujarati
-              </Badge>
             </div>
             <p className="text-muted-foreground leading-relaxed text-sm md:text-base line-clamp-3">
               {recipe.description}
